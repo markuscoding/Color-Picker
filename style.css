@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, blue,whitesmoke, red);
+  background-repeat: no-repeat;
+}
+main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+header{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+h2{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+}
+button{
+  padding: 12px 50px;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+button:hover{
+  opacity: 0.4;
+}
+.primary-container, .hex-container{
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 480px) {
+  .primary-container, .hex-container{
+    width: 360px;
+  }
+  header{
+    font-size: 50px;
+  }
+}
