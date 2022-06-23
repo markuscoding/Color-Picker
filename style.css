@@ -61,7 +61,7 @@ button:hover{
   border: 5px solid black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 690px) {
   .primary-container, .hex-container{
     width: 360px;
   }
